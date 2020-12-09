@@ -1,0 +1,74 @@
+
+body{
+  background-image: url('background.jpg');
+  background-size: cover;
+  color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.quadrato{
+  background-color:rgba(0, 0, 0, 0.5);
+  margin: 50px 300px 50px 300px;
+  padding: 100px;
+  border-radius: 50px;
+}
+
+.logo{
+  width: 250px;
+}
+
+.title{
+  color: rgb(0,221,0);
+  /* Per ricavare il colore ho usato lo strumento contagocce
+  di paint sul logo Lim.png */
+}
+
+.center, .nav{
+  margin: auto;
+  text-align: center;
+}
+
+.nav{
+  background-color: rgb(0,221,0);
+  padding: 10px;
+}
+
+.main{
+  text-align: left;
+}
+
+.arrow:after{
+  content: "\27B3";
+}
+
+h2{
+  display: inline-block;
+}
+
+p, h2{
+  margin: 0;
+}
+
+main >div{
+  margin-top: 30px;
+}
+
+.power{
+  border-radius: 10px;
+  border: 15PX solid;
+}
+
+.good{
+  width: 80%;
+  border-color: green;
+}
+
+.medium{
+  width: 50%;
+  border-color: orange;
+}
+
+.low{
+  width: 20%;
+  border-color: red;
+}
